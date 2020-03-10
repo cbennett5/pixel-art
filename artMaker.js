@@ -1,7 +1,7 @@
 window.onload = function(){
     let current_color = 'red';
     
-    let colorChoices = ['red', 'orange', 'yellow', 'green', 'blue', 'purple',,'black','white'];
+    let colorChoices = ['red', 'orange', 'yellow', 'green', 'blue', 'purple','black','white'];
     let myPalette = document.querySelector("#palette");
 
     for(let color of colorChoices) {
