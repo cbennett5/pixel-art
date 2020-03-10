@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(226, 156, 110);
+}
+
+#canvas {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+
+}
+
+#palette {
+    background-color: lightgray;
+    width: 200px;
+    height: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+#color_selector {
+    display: inline-block;
+}
