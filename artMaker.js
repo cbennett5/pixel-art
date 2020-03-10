@@ -7,8 +7,8 @@ window.onload = function(){
     for(let color of colorChoices) {
         
         let box = document.createElement('div');
-        box.style.height = '25px';
-        box.style.width = '25px';
+        box.style.height = '24px';
+        box.style.width = '24px';
         box.style.border = '1px solid black';
         box.style.backgroundColor = color;
         box.setAttribute("id","color_selector");
