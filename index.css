@@ -4,8 +4,8 @@ body {
 
 #canvas {
     background-color: white;
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(20, 1fr);
@@ -15,8 +15,8 @@ body {
 
 #palette {
     background-color: lightgray;
-    width: 200px;
-    height: 15px;
+    width: 400px;
+    height: 25px;
     margin: auto;
     text-align: center;
 }

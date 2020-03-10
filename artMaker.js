@@ -1,14 +1,14 @@
 window.onload = function(){
     let current_color = 'red';
     
-    let colorChoices = ['red', 'orange', 'yellow', 'green', 'blue', 'purple'];
+    let colorChoices = ['red', 'orange', 'yellow', 'green', 'blue', 'purple',,'black','white'];
     let myPalette = document.querySelector("#palette");
 
     for(let color of colorChoices) {
         
         let box = document.createElement('div');
-        box.style.height = '15px';
-        box.style.width = '15px';
+        box.style.height = '25px';
+        box.style.width = '25px';
         box.style.border = '1px solid black';
         box.style.backgroundColor = color;
         box.setAttribute("id","color_selector");
@@ -22,8 +22,8 @@ window.onload = function(){
 
         for(let i =0; i < 400; i++) {
             let box = document.createElement('span');
-            box.style.height = '8px';
-            box.style.width = '8px';
+            box.style.height = '18px';
+            box.style.width = '18px';
             box.style.border = '1px solid black';
             box.setAttribute("id",i);
             box.addEventListener('click',function(event) {
